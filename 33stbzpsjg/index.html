@@ -1,30 +1,39 @@
 <!DOCTYPE html>
-<html lang="sr">
+<html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Tvoj pristup — Priručnik za Art Terapiju</title>
+<title>הגישה שלך — מדריך לטיפול באמצעות אמנות</title>
 <style>
-  html, body { margin:0; background:#FAF7F2; color:#2B2522; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
-  .wrap { max-width:560px; margin:0 auto; padding:64px 20px; text-align:center; }
-  .badge { display:inline-block; font-size:12px; letter-spacing:.08em; text-transform:uppercase; background:#EFE6DA; padding:6px 12px; border-radius:99px; }
-  h1 { font-size:28px; line-height:1.2; margin:18px 0 10px; }
-  p { font-size:17px; line-height:1.55; color:#5B514B; }
-  .card { background:#fff; border:1px solid #EAE0D5; border-radius:16px; padding:24px 20px; margin-top:28px; }
-  .dot { display:inline-block; width:10px; height:10px; border-radius:50%; background:#1F9D55; margin-right:8px; animation:p 1.6s infinite; }
-  @keyframes p { 50% { opacity:.3; } }
-  @media (prefers-reduced-motion: reduce) { .dot { animation:none; } }
+  :root {
+    --bg: #FFF8F4; --a1: #D9C9F7; --a1d: #B89FE0;
+    --title: #4E4036; --body: #6F6258; --body2: #8A7A70;
+    --card: #FFFFFF; --green: #1F9D55;
+    --grad: linear-gradient(135deg, #D9C9F7, #F3B8D2);
+  }
+  html, body { margin: 0; background: var(--bg); color: var(--body); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 560px; margin: 0 auto; padding: 64px 20px; text-align: center; }
+  .badge { display: inline-block; font-size: 12px; letter-spacing: .05em; background: var(--a1); color: var(--title); padding: 6px 14px; border-radius: 99px; font-weight: 700; }
+  h1 { font-size: 26px; line-height: 1.3; margin: 18px 0 12px; color: var(--title); font-weight: 700; }
+  .sub { font-size: 17px; line-height: 1.6; color: var(--body2); }
+  .card { background: var(--card); border: 1.5px solid var(--a1); border-radius: 16px; padding: 24px 20px; margin-top: 28px; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--green); margin-left: 8px; animation: pulse 1.6s infinite; }
+  @keyframes pulse { 50% { opacity: .3; } }
+  @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+  .card p { font-size: 16px; line-height: 1.6; color: var(--body); margin: 0 0 10px; }
+  .card p:last-child { margin: 0; }
+  strong { color: var(--title); }
 </style>
 </head>
 <body>
   <div class="wrap">
-    <span class="badge">Kupovina potvrđena</span>
-    <h1>Priručnik za Art Terapiju — 100+ Vežbi + 6 Besplatnih Bonusa</h1>
-    <p>Hvala! Upravo završavamo pripremu tvog materijala. Ova stranica će se automatski ažurirati sa svim tvojim fajlovima.</p>
+    <span class="badge">✅ הרכישה אושרה</span>
+    <h1>מדריך לטיפול באמצעות אמנות<br>100+ תרגילים מנחים + 6 בונוסים מיוחדים</h1>
+    <p class="sub">תודה! אנחנו מסיימים להכין את החומרים שלך. הדף הזה יתעדכן עם כל הקבצים שלך.</p>
     <div class="card">
-      <p><span class="dot"></span><strong>Sačuvaj ovaj link</strong></p>
-      <p>Ovo je tvoj doživotni pristup. Vrati se za nekoliko sati i naći ćeš glavni priručnik i sve bonuse.</p>
+      <p><span class="dot"></span><strong>שמור את הקישור הזה</strong></p>
+      <p>זה הגישה שלך לכל החיים. חזור בעוד כמה שעות ותמצא את המדריך הראשי וכל הבונוסים.</p>
     </div>
   </div>
 </body>
